@@ -1,0 +1,45 @@
+/* Tipografia */
+*{ 
+    font-family: 'Courier Prime', monospace;
+
+}
+
+/* Titulo Cuentame un Chiste */
+h2{
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    max-width: 60%;
+    margin-bottom: 30px;
+    color: rgb(153, 32, 117);
+}
+
+/* Botton */
+button {
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color:white;
+    background: #f3611e;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 7px rgba(209, 23, 23, 0.2);
+    transition: filter 0.2s ease-in;
+    display: block;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    max-width: 60%;
+    margin-bottom: 30px;
+  }
+
+  /* Chiste */
+  #output{
+    color: #f3611e;
+    text-align: center;
+
+  }
+  
